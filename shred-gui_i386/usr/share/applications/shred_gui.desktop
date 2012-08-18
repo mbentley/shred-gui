@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Shred GUI
+GenericName=Shred GUI
+Comment=GTK frontend to shred
+Exec=su-to-root -X -c /opt/shred/shred
+Icon=/opt/shred/shredder.svg
+Terminal=false
+Type=Application
+Categories=PackageManager;GTK;System;Settings;
+NotShowIn=KDE;
