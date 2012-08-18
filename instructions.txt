@@ -1,0 +1,10 @@
+cd shred-gui_i386
+md5deep -lr opt usr > DEBIAN/md5sums
+cd ..
+
+cd shred-gui_amd64
+md5deep -lr opt usr > DEBIAN/md5sums
+cd ..
+
+dpkg -b shred-gui_i386 shred-gui_1.0.0-0_i386.deb
+dpkg -b shred-gui_amd64 shred-gui_1.0.0-0_amd64.deb
